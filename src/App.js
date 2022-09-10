@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,12 +15,10 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        ></a>
+        <div>Hello World! Hi you!</div>
+        <Weather />
       </header>
     </div>
   );
 }
-
-export default App;
