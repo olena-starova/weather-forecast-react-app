@@ -1,0 +1,25 @@
+.temp .active {
+  color: rgb(15, 15, 94);
+  cursor: default;
+  text-decoration: none;
+}
+
+.temp .active:hover {
+  text-decoration: none;
+}
+
+.temp strong {
+  font-size: 80px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  color: rgb(225, 225, 22);
+}
+
+.temp .units {
+  font-size: 20px;
+  font-family: "Roboto Slab";
+  font-weight: 900;
+  text-decoration: none;
+  top: -34px;
+  position: relative;
+}

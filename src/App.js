@@ -1,24 +1,45 @@
-import logo from "./logo.svg";
+import React from "react";
+import Projectname from "./Projectname";
+import SearchEngine from "./SearchEngine.js";
+import City from "./City";
+import Date from "./Date";
+import WeatherIcon from "./WeatherIcon";
+import Temperature from "./Temperature";
+import HumidityWind from "./HumidityWind";
+import Source from "./Source";
+
 import "./App.css";
-import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-        <div>Hello World! Hi you!</div>
-        <Weather />
-      </header>
+      <div className="card">
+        <Projectname />
+        <div className="card-body">
+          <div className="container">
+            <div className="row">
+              <SearchEngine />
+              <City />
+              <Date />
+              <div className="container">
+                <div className="row">
+                  <div className="col">
+                    <WeatherIcon />
+                  </div>
+                  <div className="col">
+                    <Temperature />
+                  </div>
+                  <div className="col">
+                    <HumidityWind />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <Source />
+        </div>
+      </div>
     </div>
   );
 }
