@@ -8,10 +8,10 @@ export default class Temperature extends React.Component {
         <strong id="actual-temp"></strong>
         <span className="units">
           {" "}
-          <button id="celsius-link" className="active">
+          <button id="celsius" className="active">
             ºC
           </button>{" "}
-          | <button id="fahrenheit-link">ºF</button>
+          | <button id="fahrenheit">ºF</button>
         </span>
       </div>
     );
