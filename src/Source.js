@@ -6,11 +6,11 @@ export default class Source extends React.Component {
     return (
       <div className="source">
         This project was coded by Olena Starova and is{" "}
-        <a href="https://legendary-tarsier-4424bb.netlify.app">
+        <a href="https://github.com/olena-starova/weather-forecast-react-app">
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a href="https://github.com/olena-starova/weather-forecast-react-app">
+        <a href="https://transcendent-churros-77c234.netlify.app">
           hosted on Netlify
         </a>
       </div>
