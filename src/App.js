@@ -1,14 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import SearchEngine from "./SearchEngine.js";
-import City from "./City";
-import Date from "./Date";
-import WeatherIcon from "./WeatherIcon";
-import Temperature from "./Temperature";
-import HumidityWind from "./HumidityWind";
-import Source from "./Source";
-
-import "./App.css";
 
 export default function App() {
   return (
