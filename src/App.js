@@ -1,5 +1,5 @@
 import React from "react";
-import Projectname from "./Projectname";
+import Weather from "./Weather";
 import SearchEngine from "./SearchEngine.js";
 import City from "./City";
 import Date from "./Date";
@@ -13,32 +13,16 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="card">
-        <Projectname />
-        <div className="card-body">
-          <div className="container">
-            <div className="row">
-              <SearchEngine />
-              <City />
-              <Date />
-              <div className="container">
-                <div className="row">
-                  <div className="col">
-                    <WeatherIcon />
-                  </div>
-                  <div className="col">
-                    <Temperature />
-                  </div>
-                  <div className="col">
-                    <HumidityWind />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <Source />
-        </div>
+      <div classname="container">
+        <Weather />
+        <footer>
+          This project was coded by Olena Starova and is{" "}
+          <a href="https://github.com/olena-starova/weather-forecast-react-app">
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a href="https://transcendent-churros-77c234.netlify.app">Netlify</a>
+        </footer>
       </div>
     </div>
   );
