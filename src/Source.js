@@ -4,16 +4,22 @@ import "./Date.css";
 export default class Source extends React.Component {
   render = () => {
     return (
-      <div className="source">
+      <footer>
         This project was coded by Olena Starova and is{" "}
-        <a href="https://github.com/olena-starova/weather-forecast-react-app">
+        <a
+          href="https://github.com/olena-starova/weather-forecast-react-app"
+          target="_blank"
+        >
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a href="https://transcendent-churros-77c234.netlify.app">
+        <a
+          href="https://transcendent-churros-77c234.netlify.app"
+          target="_blank"
+        >
           hosted on Netlify
         </a>
-      </div>
+      </footer>
     );
   };
 }
