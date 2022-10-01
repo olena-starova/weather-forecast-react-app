@@ -1,6 +1,6 @@
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 2px solid goldenrod;
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
@@ -40,6 +40,6 @@
   font-family: "Roboto Slab";
   font-weight: 900;
   text-decoration: none;
-  top: -34px;
+  top: -24px;
   position: relative;
 }
