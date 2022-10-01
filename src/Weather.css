@@ -1,4 +1,8 @@
 .Weather {
   border: 1px solid burlywood;
+  margin: 20px;
+}
+
+.Weather ul {
   list-style: none;
 }
