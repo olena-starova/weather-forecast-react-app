@@ -33,7 +33,7 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             alt="Cloudy"
           />
-          15 ºC
+          <div className="temperature">15 ºC</div>
         </div>
         <div className="col-6">
           <ul>
