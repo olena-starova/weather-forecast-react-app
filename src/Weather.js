@@ -43,7 +43,7 @@ export default function Weather() {
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="Cloudy"
             />
-            <span className="temperature">15</span>
+            <span className="temperature">{Math.round(temperature)}</span>
             <span className="unit">ºC</span>
           </div>
           <div className="col-6">
