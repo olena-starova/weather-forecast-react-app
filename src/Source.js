@@ -12,12 +12,12 @@ export default class Source extends React.Component {
         >
           open-sourced on GitHub
         </a>{" "}
-        and{" "}
+        and hosted on{" "}
         <a
           href="https://transcendent-churros-77c234.netlify.app"
           target="_blank"
         >
-          hosted on Netlify
+          Netlify
         </a>
       </footer>
     );
