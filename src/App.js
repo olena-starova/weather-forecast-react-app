@@ -13,7 +13,7 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://transcendent-churros-77c234.netlify.app">Netlify</a>
+          <a href="https://bucolic-cobbler-d6ac5e.netlify.app">Netlify</a>.
         </footer>
       </div>
     </div>
