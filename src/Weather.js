@@ -1,7 +1,18 @@
 import React from "react";
 import "./Weather.css";
+import axios from "axios";
 
 export default function Weather() {
+  const [ready, setReady] = useState(false);
+  const [temperature, setTemperature] = useState(null);
+  function handleResponse(response) {
+    setTemperature(response.data.main.temp);
+  }
+
+  const apiKey = "d5c0155cd147c2d7c821980db5dc591e";
+  let city = "Kyiv";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
+  axios.get(apiUrl).then(handleResponse);
   return (
     <div className="Weather">
       <form>
