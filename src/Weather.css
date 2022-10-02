@@ -33,11 +33,11 @@
 
 .Weather .temperature {
   font-family: "Roboto Slab";
-  font-weight: bold;
+  font-weight: 600;
   color: goldenrod;
   font-size: 64px;
   line-height: 64px;
-  font-weight: 600;
+  margin-left: 15px;
 }
 
 .Weather .unit {
@@ -46,5 +46,6 @@
   font-weight: 900;
   text-decoration: none;
   top: -24px;
+  margin-left: 5px;
   position: relative;
 }

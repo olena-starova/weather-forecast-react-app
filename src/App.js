@@ -8,12 +8,16 @@ export default function App() {
       <div classname="container">
         <Weather defaultCity="Kharkiv" />
         <footer>
-          This project was coded by Olena Starova and is{" "}
+          This project was coded by{" "}
+          <a href="https://spiffy-cucurucho-a2d46c.netlify.app/index.html">
+            Olena Starova
+          </a>{" "}
+          and is{" "}
           <a href="https://github.com/olena-starova/weather-forecast-react-app">
             open-sourced on GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://bucolic-cobbler-d6ac5e.netlify.app">Netlify</a>.
+          <a href="https://sprightly-lily-25b26e.netlify.app">Netlify</a>.
         </footer>
       </div>
     </div>
