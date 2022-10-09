@@ -1,8 +1,10 @@
 .Weather {
+  background: linear-gradient(#fbd1d3, #f198af, #ebb2d6, #9f81cd, #766dc1);
   font-family: arial, sans-serif;
-  border: 1px solid goldenrod;
+  border: 1px solid gold;
   padding: 16px;
   border-radius: 4px;
+  box-shadow: 10px 5px 5px gray;
   color: rgb(135, 135, 135);
 }
 
@@ -34,7 +36,7 @@
 .Weather .temperature {
   font-family: "Roboto Slab";
   font-weight: 600;
-  color: goldenrod;
+  color: gold;
   font-size: 64px;
   line-height: 64px;
   margin-left: 15px;

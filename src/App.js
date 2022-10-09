@@ -13,11 +13,22 @@ export default function App() {
             Olena Starova
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/olena-starova/weather-forecast-react-app">
+          <a
+            href="https://github.com/olena-starova/weather-forecast-react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             open-sourced on GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://sprightly-lily-25b26e.netlify.app">Netlify</a>.
+          <a
+            href="https://sprightly-lily-25b26e.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
